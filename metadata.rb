@@ -7,7 +7,7 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.2.0'
 
 depends 'yum-repoforge', '~> 0.5.0'
-depends 'git', '~> 4.3.6'
+depends 'git', '>= 4.1.0'
 depends 'apache2', '~> 3.1.0'
 depends 'php', '~> 1.7.2'
 
